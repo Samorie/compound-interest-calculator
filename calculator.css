@@ -1,9 +1,49 @@
 body {
-	font-family: sans-serif;
+	font-family: Helvetica;
 }
 body * {
 	box-sizing: border-box;
 }
-ul li {
-	margin-bottom: 10px;
+
+h1 {
+font-weight: bold;
+font-size: 30px;
+padding-left: 3%;
+}
+
+.Compound {
+	padding-left: 3%;
+width: 100px;
+}
+
+p{margin-left:1px;
+	padding-left: 3%;
+	font-weight:lighter;
+	font-size: 12px;
+}
+
+input {
+	border-radius: 5px;
+	border-width: thin;
+	border-style: inset;
+	width: 70px;
+}
+
+.thing {
+padding-right: 10%;
+float: right;
+float: top;
+}
+
+.column {
+padding-right: 20%;
+float: right;
+width: 100px;
+}
+
+button {
+	margin-left: 3%;
+}
+section {
+	padding-top: 30px;
 }
